@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="style.css" defer></script>
+  
+</head>
+<body>
+    <div class="nav-container">
+      <nav class="navbar">
+
+        <div class="img-container">
+          <a href="">
+            <img src="images/logo.pmg.png" alt="">
+          </a>
+        </div>
+
+        <div class="suggetion-container">
+          <ul>
+            <li class="list-item">
+              <a href="">IPL</a>
+            </li>
+            <li class="list-item">
+              <a href="">Politics</a>
+            </li>
+            <li class="list-item">
+              <a href="">International</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-container">
+          <input type="text" name="search-text" id="search-text" placeholder="Enter something..">
+          <button type="submit" id="search-btn">Search</button>
+        </div>
+
+      </nav>
+    </div>
+
+
+    <main>
+      <div class="cards-container">
+       
+      </div>
+    </main>
+
+
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/400x200 " alt="news content">
+        </div>
+        <div class="card-content">
+          <h3 id="news-title">This is the content</h3>
+          <h6 class="news-source">About the news</h6>
+          <p class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit voluptates suscipit. Dolorum expedita labore earum tempore, ipsum maiores velit odit eum nam fugiat eaque quos dolores mollitia doloremque sint!</p>
+        </div>
+      </div>
+    </template>
+
+
+
+</body>
+</html>
