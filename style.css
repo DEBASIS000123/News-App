@@ -22,8 +22,15 @@ body{
   color: black;
   font-size: 1rem;
 }
-.list-item a:active{
+.list-item:active{
   color: red;
+}
+.list-item{
+  cursor: pointer;
+}
+.active{
+  font-weight: 600;
+  color: #2294ed;
 }
 .navbar{
   display: flex;
@@ -42,6 +49,8 @@ body{
   padding: 8px 24px;
   border-radius: 4px;
   border: 2px solid #bbd0e2;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 #search-btn{
   background-color: #2294ed;
